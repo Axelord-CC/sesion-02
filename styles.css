@@ -1,0 +1,186 @@
+/* GENERALES  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 241, 223);
+}
+
+/* ESTILOS SPLASH */ 
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+h1 {
+    color: #025157;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    /* margin-top: 250px; */
+
+}
+
+h2 {
+    color: #46484c;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.splash p {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #343434;
+}
+
+.splash img {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.formulario {
+    width: 250px;
+    height: 40px;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    color: #fff;
+    font-size: 15px;
+    background-color: #025157;
+    padding: 10px 15px;
+    height: 40px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.splash p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* ESTILOS BARRA DE NAVEGACION */ 
+
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    color: #025157;
+    text-align: center;
+    font-weight: 500;
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 25px;
+}
+
+li {
+    display: inline;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions > * {
+    margin: 0 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+/* ESTILOS SECCION VIDEO */
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.publish {
+    flex: 1;
+}
+
+.publish h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #025157;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    margin: 20px 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.publish form {
+    display: flex;
+}
+
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+}
