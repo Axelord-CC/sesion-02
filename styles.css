@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(228, 150, 49);
+    background-color: rgb(250, 234, 214);
 }
 
 /* ESTILOS SPLASH */ 
@@ -17,7 +17,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 600px;
+    border: 1px solid black;
 }
 
 h1 {
@@ -25,8 +26,8 @@ h1 {
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 700;
     font-size: 50px;
-    /* margin-top: 250px; */
-
+    margin-top: 250px;
+    text-align: center;
 }
 
 h2 {
@@ -35,6 +36,8 @@ h2 {
     font-weight: 400;
     font-size: 25px;
     margin: 20px 0;
+    text-align: center;
+    width: 75%;
 }
 
 .splash p {
@@ -42,10 +45,10 @@ h2 {
     color: #343434;
 }
 
-.splash img {
+/* .splash img {
     width: 500px;
     margin-top: 50px;
-}
+} */
 
 .formulario {
     width: 250px;
@@ -60,7 +63,7 @@ button {
     font-size: 15px;
     background-color: #025157;
     padding: 10px 15px;
-    height: 40px;
+    height: 45px;
     border: 0;
     border-radius: 0 5px 5px 0;
 }
@@ -70,12 +73,26 @@ button {
     margin-top: 5px;
 }
 
+.img-01 {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.img-02 {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
 /* ESTILOS BARRA DE NAVEGACION */ 
 
 .header {
     margin: 40px 20px 0 20px;
     font-size: 0;
     height: 45px;
+    border: 1px solid black;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .header > * {
@@ -88,7 +105,7 @@ button {
 }
 
 .logo {
-    width: 15%;
+    width: 20%;
 }
 
 .logo > img {
@@ -96,7 +113,7 @@ button {
 }
 
 .navbar {
-    width: 70%;
+    width: 60%;
     color: #025157;
     text-align: center;
     font-weight: 500;
@@ -112,7 +129,7 @@ li {
 }
 
 .actions {
-    width: 15%;
+    width: 20%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
@@ -141,8 +158,9 @@ li {
 .promo {
     display: flex;
     width: 70%;
-    margin: 100px auto;
+    margin: 50px auto;
     align-items: center;
+    border: 1px solid black;
 }
 
 .explanatory-video {
