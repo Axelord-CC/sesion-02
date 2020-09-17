@@ -18,7 +18,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 600px;
-    border: 1px solid black;
 }
 
 h1 {
@@ -51,7 +50,7 @@ h2 {
 } */
 
 .formulario {
-    width: 250px;
+    width: 200px;
     height: 40px;
     padding: 10px 10px;
     border: 1px solid gray;
@@ -63,7 +62,7 @@ button {
     font-size: 15px;
     background-color: #025157;
     padding: 10px 15px;
-    height: 45px;
+    height: 40px;
     border: 0;
     border-radius: 0 5px 5px 0;
 }
@@ -82,16 +81,24 @@ button {
     display: block;
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 /* ESTILOS BARRA DE NAVEGACION */ 
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid black; */
+}
+
 .header {
-    margin: 40px 20px 0 20px;
+    margin: 30px 20px 30px 20px;
     font-size: 0;
     height: 45px;
-    border: 1px solid black;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
@@ -122,6 +129,11 @@ button {
 .menu-item {
     display: inline;
     margin: 0 25px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #343434;
 }
 
 li {
@@ -157,10 +169,9 @@ li {
 
 .promo {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 50px auto;
     align-items: center;
-    border: 1px solid black;
 }
 
 .explanatory-video {
@@ -200,5 +211,68 @@ li {
 
 .publish > form p {
     color: #025157;
-    margin-right: 18px;
+    margin-right: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+/* ESTILOS SECCION GRID */
+
+.features {
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+    background-color: #025157;
+    padding: 5% 10%;
+}
+
+.features .feature-card {
+    margin: 0 15px 30px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+  }
+
+  .features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .features .feature-card .feature-content img {
+    width: 50px;
+  }
+
+  .features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+  }
+
+  .features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+  }
+
+    .features .feature-card .feature-image figure,
+        .features .feature-card .feature-image img {
+  margin-top: 0;
+  height: 100%;
 }
