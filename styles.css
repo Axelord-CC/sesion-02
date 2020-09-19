@@ -122,7 +122,7 @@ button {
 }
 
 .navbar {
-    width: 60%;
+    /* width: 60%; */
     color: #025157;
     text-align: center;
     font-weight: 500;
@@ -315,5 +315,7 @@ li {
     .explanatory-video > video {
         width: 100%;
     }
+
+    
   }
 
