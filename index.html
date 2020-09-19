@@ -3,6 +3,7 @@
     <head>
         <!-- Awui va la informacion importante pero no visible dentro del navegador -->
         <title>Matcha</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     </head>
@@ -31,18 +32,22 @@
         </section>
 
         <!-- SECCION SPLASH -->
-        <section class="splash">
-            <h1>Build your blog. Build your business.</h1>
-            <h2>Instantly publish articles, drive more traffic, grow your email list, and see your blog's impact on sale.</h2>
-            <form>
-                <input type="email" class="formulario" placeholder="Enter email address">
-                <button type="submit">Try it now &rarr;</button>
-            </form>
-            <p>Start publishing today with a free 7-day trial.</p>
-            <p>No credit card required</p>
-            <img class="img-01" src="img/capterra.png" alt="Calificaciones">
-        </section>
-        <img class="img-02" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="Ventanas-app">
+        <main>
+            <section class="splash">
+                <h1>Build your blog. Build your business.</h1>
+                <h2>Instantly publish articles, drive more traffic, grow your email list, and see your blog's impact on sale.</h2>
+                <form>
+                    <input type="email" class="formulario" placeholder="Enter email address">
+                    <button type="submit">Try it now &rarr;</button>
+                </form>
+                <p>Start publishing today with a free 7-day trial.</p>
+                <p>No credit card required</p>
+                <figure class="banner">
+                    <img class="img-01" src="img/capterra.png" alt="Calificaciones">
+                </figure>
+            </section>
+            <img class="img-02" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="Ventanas-app">
+        </main>
         
         
 
@@ -86,12 +91,78 @@
                     </figure>
                 </div>
             </article>
-            <article class="feature-card">Característica 2</article>
-            <article class="feature-card">Característica 3</article>
-            <article class="feature-card">Característica 4</article>
+            <article class="feature-card">
+                <div class="feature-content">
+                    <figure>
+                      <img
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_site_traffic.png"
+                        alt="Site traffic icon"
+                      />
+                    </figure>
+                    <h3>Attract and engage more website visitors.</h3>
+                    <p>
+                      Enhance your email, social media channels, and paid ads with content
+                      from Matcha.
+                    </p>
+                    <a href="">Get more site traffic →</a>
+                  </div>
+                  <div class="feature-image">
+                    <figure>
+                      <img
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_site_traffic.png"
+                        alt="Site traffic example"
+                      />
+                    </figure>
+                  </div>
+            </article>
+            <article class="feature-card">
+                <div class="feature-content">
+                    <figure>
+                      <img
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_capture.png"
+                        alt="Capture icon"
+                      />
+                    </figure>
+                    <h3>Capture more emails with locked content.</h3>
+                    <p>
+                      Convert 10x more of your traffic into subscribers and nurture them
+                      to a sale.
+                    </p>
+                    <a href="">Grow your email list faster →</a>
+                  </div>
+                  <div class="feature-image">
+                    <figure>
+                      <img
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_capture.png"
+                        alt="Capture example"
+                      />
+                    </figure>
+                  </div>
+            </article>
+            <article class="feature-card">
+                <div class="feature-content">
+                    <figure>
+                      <img
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_roi.png"
+                        alt="ROI icon"
+                      />
+                    </figure>
+                    <h3>Optimize your blog’s performance.</h3>
+                    <p>
+                      See what content delivers the most traffic, engagement, email
+                      subscribers, and sales.
+                    </p>
+                    <a href="">See content’s ROI →</a>
+                  </div>
+                  <div class="feature-image">
+                    <figure>
+                      <img
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_roi.png"
+                        alt="ROI example"
+                      />
+                    </figure>
+                  </div>
+            </article>
         </section>
-
-        
-
     </body>
 </html>
