@@ -1,0 +1,17 @@
+$color-principal: #fed2b5;
+$tamaño-principal: 2em;
+
+body {
+    background-color: $color-principal;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+    color: darken($color-principal, 20);
+    font-size: $tamaño-principal * 2;
+}
+
+
+.blog {
+    background-color: #ffffff;
+}
